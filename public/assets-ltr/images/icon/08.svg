@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="pie-graph">
+    <path d="M9.39115 0C4.23556 0 0 4.19401 0 9.34959C0 14.5052 4.23556 18.7407 9.39115 18.7407C14.5467 18.7407 18.7407 14.5052 18.7407 9.34959L18.7407 8.72629L10.0145 8.72629L10.0145 0L9.39115 0Z" transform="translate(0 4.259259)" id="Path" fill="#7034FF" stroke="none" />
+    <path d="M7.66667 1.13643C7.41052 0.735452 7.12514 0.356533 6.81313 0L0 6.81482L1.98969 6.81482L7.66667 1.13643Z" transform="translate(13.62963 3.4074075)" id="Path" fill="#7034FF" fill-opacity="0.35588726" stroke="none" />
+    <path d="M0 7.66667L6.81482 0.85354C6.45827 0.541528 6.07951 0.256144 5.67852 0L0 5.67698L0 7.66667Z" transform="translate(12.777778 1.7037038)" id="Path" fill="#7034FF" fill-opacity="0.35588726" stroke="none" />
+    <path d="M0 0L0 5.11111L4.25926 0.846673C3.13982 0.333347 1.89978 0 0.589985 0L0 0Z" transform="translate(12.777778 0)" id="Path" fill="#7034FF" fill-opacity="0.35588726" stroke="none" />
+    <path d="M0 4.25926L5.11111 4.25926L5.11111 3.66927C5.11111 2.35948 4.77776 1.11943 4.26444 0L0 4.25926Z" transform="translate(17.88889 5.962963)" id="Path" fill="#7034FF" fill-opacity="0.35588726" stroke="none" />
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+.width-180 { max-width: 188px; }
+.padding-hero{ padding: 250px 0 110px; }
+.p-hero{ padding: 300px 0 110px; }
+.hero-banner-two .hero-text-wrapper form button{ background:var(--purple-blue); }
+.navbar-nav .nav-item .nav-link:hover{ color:var(--purple-blue); }
+.theme-footer-four .footer-about-widget ul li a{ font-size:25px; }
+.social-icon{ display:block;padding:10px; }
+.theme-menu-two .navbar-nav .nav-item.active .dropdown-toggle::after, .theme-menu-two .navbar-nav .nav-item:hover > .dropdown-toggle::after, .theme-menu-two .navbar .dropdown-menu .dropdown-submenu:hover .dropdown-item::after, .theme-menu-two .navbar .dropdown-menu .dropdown-submenu:hover > .dropdown-item, .theme-menu-two .navbar-nav .nav-item.active .nav-link, .theme-menu-two .navbar-nav .nav-item:hover > .nav-link, .theme-menu-two .navbar .dropdown-menu .dropdown-item:hover, .theme-menu-two .navbar .dropdown-menu .dropdown-item.active{color:var(--purple-blue);}
+/*.bottom-footer-content{ text-align: left; }*/
+.theme-menu-two .navbar .navbar-toggler { background:var(--purple-blue); }
+.hero-home .shape-six{ bottom: 5%; left: 0; }
+.bg-fbf3ec{ background: #fbf3ec; }
+body .theme-btn-one{ background:var(--purple-blue); }
+body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hover{ background:var(--vin-red) }
+.fancy-feature-eight .bg-wrapper::before{ background: none; }
+.theme-menu-two .user-login-button li a,.theme-menu-two .user-login-button li a:hover{color:#fff;}
+.block-style-six::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    left: 0;
+    bottom: 0;
+    background: url(../assets/images/shape/line-shape-4.svg);
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-repeat: repeat;
+      background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .block-style-six:last-child{ padding-bottom:0; }
+  .hero-banner-seven .illustration-container{top:auto;}
+  .textarea-request{border:none;border-bottom:2px solid #000;width:100%;}
+
+
+
+ 

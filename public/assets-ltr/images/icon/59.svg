@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Search-Button" transform="translate(1 1)">
+    <g id="Group-6" transform="translate(0 0.45185184)">
+      <path d="M0 0L4.61538 3.4188" transform="translate(10.384615 9.116809)" id="Path-9" fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" />
+      <path d="M5.76923 11.396C8.95549 11.396 11.5385 8.84493 11.5385 5.69801C11.5385 2.55108 8.95549 0 5.76923 0C2.58297 0 0 2.55108 0 5.69801C0 8.84493 2.58297 11.396 5.76923 11.396Z" id="Oval" fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" />
+    </g>
+  </g>
+</svg>
