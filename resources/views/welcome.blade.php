@@ -16,22 +16,22 @@
 
         <div class="app-preview-slider-two">
             <div class="item">
-                <div class="img-holder"><img src="{{ asset('assets/images/teams/1.JPG') }}" alt=""><p class="text-center">CTO</p></div>
+                <div class="img-holder"><img src="{{ asset('assets/images/teams/1.jpg') }}" alt=""><p class="text-center">CTO</p></div>
             </div>
             <div class="item">
                 <div class="img-holder"><img src="{{ asset('assets/images/teams/12.jpg') }}" alt=""><p class="text-center">CEO</p></div>
             </div>
             <div class="item">
-                <div class="img-holder"><img src="{{ asset('assets/images/teams/3.JPG') }}" alt=""><p class="text-center">Co-Founder</p></div>
+                <div class="img-holder"><img src="{{ asset('assets/images/teams/3.jpg') }}" alt=""><p class="text-center">Co-Founder</p></div>
             </div>
             <div class="item">
-                <div class="img-holder"><img src="{{ asset('assets/images/teams/4.JPG') }}" alt=""><p class="text-center">Business Intellignece</p></div>
+                <div class="img-holder"><img src="{{ asset('assets/images/teams/4.jpg') }}" alt=""><p class="text-center">Business Intellignece</p></div>
             </div>
             <div class="item">
-                <div class="img-holder"><img src="{{ asset('assets/images/teams/5.JPG') }}" alt=""><p class="text-center">Product Owner</p></div>
+                <div class="img-holder"><img src="{{ asset('assets/images/teams/5.jpg') }}" alt=""><p class="text-center">Product Owner</p></div>
             </div>
             <div class="item">
-                <div class="img-holder"><img src="{{ asset('assets/images/teams/6.JPG') }}" alt=""><p class="text-center">Back-End Developer</p></div>
+                <div class="img-holder"><img src="{{ asset('assets/images/teams/6.jpg') }}" alt=""><p class="text-center">Back-End Developer</p></div>
             </div>
             <div class="item">
                 <div class="img-holder"><img src="{{ asset('assets/images/teams/14.jpg') }}" alt=""><p class="text-center">Back-End Developer</p></div>

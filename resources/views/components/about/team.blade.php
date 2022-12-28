@@ -15,56 +15,56 @@
             <div class="mixitUp-container">
             <div class="mix management">
                     <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/3.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/3.jpg') }}" alt="">
                         <h4> {{ __('about.members.homeyli') }} </h4>
                         <strong>Co-Founder</strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix management">
                     <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/2.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/2.jpg') }}" alt="">
                         <h4> {{ __('about.members.zoveydat') }} </h4>
                         <strong>CEO</strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix management">
                     <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/1.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/1.jpg') }}" alt="">
                         <h4> {{ __('about.members.bazadaran') }} </h4>
                         <strong>CTO</strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix management">
                     <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/5.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/5.jpg') }}" alt="">
                         <h4> {{ __('about.members.zare') }} </h4>
                         <strong>Product Owner</strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix investment">
                     <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/4.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/4.jpg') }}" alt="">
                         <h4> {{ __('about.members.taheri') }} </h4>
                         <strong> Business Intellignece </strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix developer">
                     <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/7.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/7.jpg') }}" alt="">
                         <h4> {{ __('about.members.ilya') }} </h4>
                         <strong>‌Back-end Developer</strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix developer ">
                     <div class="team-member" onclick="location.href='team-single.html';">
-                        <img src="{{ asset('assets/images/teams/8.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/8.jpg') }}" alt="">
                         <h4> {{ __('about.members.shikh') }} </h4>
                         <strong>‌Back-end Developer</strong>
                     </div> <!-- /.team-member -->
                 </div> <!-- /.mix -->
                 <div class="mix developer ">
                     <div class="team-member" onclick="location.href='team-single.html';">
-                        <img src="{{ asset('assets/images/teams/6.JPG') }}" alt="">
+                        <img src="{{ asset('assets/images/teams/6.jpg') }}" alt="">
                         <h4> {{ __('about.members.ghaouri') }}  </h4>
                         <strong>‌Back-end Developer</strong>
                     </div> <!-- /.team-member -->

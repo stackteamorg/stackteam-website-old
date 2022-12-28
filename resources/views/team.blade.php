@@ -1,5 +1,5 @@
 <x-app-layout>
-	<div class="pricing-section-three-inner-page">
+	<div class="pricing-section-three-inner-page hero-team">
 		<img src="images/shape/124.svg" alt="" class="shapes shape-one">
 		<img src="images/shape/125.svg" alt="" class="shapes shape-two">
 		<div class="container">
