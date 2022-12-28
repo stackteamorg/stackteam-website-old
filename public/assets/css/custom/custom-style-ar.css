@@ -86,11 +86,7 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
   }
   
   
-  .hero-home{
-    background-image: url(../../images/media/background-img.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  
   
   .app-screen-preview-two , .fancy-hero-three , .useable-tools-section-two.bg-shape .bg-wrapper{
      /*background: #e4ebf1;*/
@@ -134,9 +130,23 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
     background: #102a43;
   }
   
-  .fancy-feature-twentySeven , .fancy-hero-five , .fancy-feature-nine,.fancy-feature-thirtyFour{
+  .fancy-feature-twentySeven , .fancy-hero-five , .fancy-feature-nine,.fancy-feature-thirtyFour , .hero-banner-seven {
     /*background: #e4ebf1;*/
      background: #f3f8ff;
+  }
+  
+  .hero-banner-seven{
+    background-image: url(../../images/media/background-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background: #aa954d42;
+    background: #f3f8ff;*/
+  }
+  
+  .hero-team{
+    background-image: url(../../images/media/background-img.jpg);
+    background-size: cover;
+    background-position: center;
   }
   
   .theme-footer-four::before {
@@ -206,7 +216,7 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
     background: #102a43;
   }
   
-  .pricing-section-three-inner-page {
+  .pricing-section-three-inner-page{
     background: #e4ebf1;
   }
   
@@ -253,3 +263,7 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
   .title-style-five h2 span::before {background: #aa954d80;}
   .bg-darkblue{background: #102a43;}
   .fancy-feature-thirtyTwo .block-style-twentyTwo{height:320px;}
+  .fancy-short-banner-five form button:hover{background: #fff; border:2px solid #102a43;color:#102a43;} 
+  .hero-banner-seven form button{background: #102a43;}
+  .hero-banner-seven form button:hover{background: transparent;color: #102a43;border: 2px solid #102a43;}
+  .hero-banner-seven form input{background: #fff;border:1px solid #000;;}
