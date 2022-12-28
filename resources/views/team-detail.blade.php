@@ -18,9 +18,9 @@
 				<div class="post-meta" data-aos="fade-up" data-aos-duration="1200">
 					<div class="post">
 						{!! $team->text !!}
-						<div class="mt-4 text-center">
+						{{--<div class="mt-4 text-center">
                             <a class="service-a" href="{{ route('brief',['lang' => app()->getLocale()]) }}"> {{ __('menu.navigation.becoworker') }} </a>
-                        </div>
+                        </div>--}}
 						{{--<h3><a href="blog-details-v1.html" class="title">Quis Nostr Exercitation Ullamco Laboris nisi ut Aliquip exeal nothing.</a></h3>
 						<p>Tomfoolery crikey bits and bobs brilliant bamboozled down the pub amongst brolly hanky panky, cack bonnet arse over tit burke bugger all mate bodge..</p>
 						<a href="blog-details-v1.html" class="read-more">
