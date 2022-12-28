@@ -1,13 +1,11 @@
 <x-app-layout>
-	<div class="fancy-hero-five">
-		<img src="images/shape/95.svg" alt="" class="shapes shape-one">
-		<img src="images/shape/96.svg" alt="" class="shapes shape-two">
+	<div class="fancy-hero-five hero-team">
 		<div class="bg-wrapper">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 m-auto text-center">
-						<h6 class="page-title"> {{ __('index.content.team') }} </h6>
-						<h1 class="heading"> {{ $team->title }} </h1>
+						<h6 class="page-title text-white"> {{ __('index.content.team') }} </h6>
+						<h1 class="heading text-white"> {{ $team->title }} </h1>
 					</div>
 				</div>
 			</div>
