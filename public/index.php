@@ -4,7 +4,7 @@ use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
-define('CORE_PATH',@$_SERVER['SERVER_ADDR'] == '127.0.0.1' || !isset($_SERVER['SERVER_ADDR']) ? __DIR__.'/../' : __DIR__.'/../core/');
+define('CORE_PATH',__DIR__.'/../');
 
 /*
 |--------------------------------------------------------------------------
