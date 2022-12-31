@@ -23,9 +23,9 @@
 <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('assets/images/fav-icon/icon.png') }}">
 <!-- Main style sheet -->
 @if (in_array(app()->getLocale(),['fa','ar']))
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style-rtl.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/css/style-rtl.css') }}">
 @else
-<link rel="stylesheet" type="text/css" href="{{ asset('assets-ltr/css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('assets-ltr/css/style.css') }}">
 @endif
 <!-- responsive style sheet -->
 <link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/css/responsive.css') }}">
