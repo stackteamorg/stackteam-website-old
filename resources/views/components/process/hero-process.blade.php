@@ -50,12 +50,12 @@
     </div>
 </div> <!-- /.fancy-feature-nine -->
 --}}
-<div class="fancy-feature-thirtyFour mt-150 md-mt-100 p-hero">
+<div class="fancy-feature-thirtyFour mt-150 md-mt-100 pt-100">
 	<div class="container">
         <div class="row">
             <div class="col-lg-12  m-auto" data-aos="fade-up" data-aos-duration="1200">
                 <div class="title-style-eleven text-center mb-70 md-mb-10">
-                    <div class="upper-title"> {{ __('process.hero.smalltitle') }} </div>
+                    <div> {{ __('process.hero.smalltitle') }} </div>
                     <h2> {{ __('process.hero.title') }} </h2>
                 </div>
             </div>
