@@ -50,7 +50,7 @@
     </div>
 </div> <!-- /.fancy-feature-nine -->
 --}}
-<div class="fancy-feature-thirtyFour mt-150 md-mt-100 pt-100">
+<div class="fancy-feature-thirtyFour mt-150 md-mt-100 pt-100 pb-100">
 	<div class="container">
         <div class="row">
             <div class="col-lg-12  m-auto" data-aos="fade-up" data-aos-duration="1200">
