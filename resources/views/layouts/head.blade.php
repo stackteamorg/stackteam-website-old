@@ -28,12 +28,12 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('assets-ltr/css/style.css') }}">
 @endif
 <!-- responsive style sheet -->
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/css/responsive.css') }}">
 <!--  byekan font -->
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/somar/font.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/yekan/font.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/fonts/somar/font.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/fonts/yekan/font.css') }}">
 <!-- fix style -->
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/custom/custom-style-' . app()->getLocale() . '.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/css/custom/custom-style-' . app()->getLocale() . '.css') }}">
 
 <!-- Fix Internet Explorer ______________________________________-->
 <!--[if lt IE 9]>
