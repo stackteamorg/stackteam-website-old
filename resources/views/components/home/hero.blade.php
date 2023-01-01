@@ -77,7 +77,7 @@
                         <input type="tel" name="phonenumber" class="phonenumber" id="phonenumber-top" placeholder="+98 912 018 6223">
                         <button pos="top" class="send"> {{ __('index.hero.valuesubmit') }} </button>
                     </form>
-                    <p class="term-text" style="color:#102a43;"> <iconify-icon icon="mdi:support" style="font-size:25px;margin-top:5px;margin-left:8px;float:right;"></iconify-icon> {!! __('index.hero.subtext') !!} </p>
+                    <p class="term-text" style="color:#102a43;"> <img src="{{ asset('assets/images/icon/support.svg') }}" class="float-right mt-1 ml-2"/> {!! __('index.hero.subtext') !!} </p>
                 </div>
             </div>
         </div>

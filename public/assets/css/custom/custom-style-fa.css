@@ -272,3 +272,5 @@ body .theme-btn-five{
 .hero-banner-seven form button:hover{background: transparent;color: #102a43;border: 2px solid #102a43;}
 .hero-banner-seven form input{background: #fff;border:1px solid #000;;}
 .icon-post{float: right;margin-top: 5px;margin-left: 5px;color: #aa954d;}
+body .theme-btn-one{background: #102a43;}
+body .theme-btn-one{background: #fff;border: 2px solid #102a43;color: #000;}
