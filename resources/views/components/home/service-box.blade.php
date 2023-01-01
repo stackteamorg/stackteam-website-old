@@ -50,10 +50,10 @@
                 </div>
             @endforeach
         </div>
-        {{--<div class="row">
+        <div class="row">
             <div class="col-md-12 mt-60 text-center">
-                <a class="service-a" href="{{ route('team' ,['lang' => app()->getLocale()]) }}"> {{  __('index.content.findteam') }} </a>
+                <a class="service-a" href="{{ route('service' ,['lang' => app()->getLocale()]) }}"> {{  __('index.content.more') }} ... </a>
             </div>
-        </div>--}}
+        </div>
     </div>
 </div> 
