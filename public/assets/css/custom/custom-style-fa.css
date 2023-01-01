@@ -98,7 +98,7 @@ body .theme-btn-five{
 }
 
 .baner-about{
-  background-image: url(../../images/teams/11.JPG);
+  background-image: url(../../images/teams/11.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -274,3 +274,4 @@ body .theme-btn-five{
 .icon-post{float: right;margin-top: 5px;margin-left: 5px;color: #aa954d;}
 body .theme-btn-one{background: #102a43;}
 body .theme-btn-one{background: #fff;border: 2px solid #102a43;color: #000;}
+.icon-teamdetail::before{content: url('../../images/icon/158.svg'); margin-left:5px;}

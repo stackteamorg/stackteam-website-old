@@ -20,7 +20,7 @@
   gtag('config', 'G-D0GDEY6W27');
 </script>
 <!-- Favicon -->
-<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('assets/images/fav-icon/icon.png') }}">
+<link rel="icon" type="image/png" sizes="56x56" href="{{ secure_asset('assets/images/fav-icon/icon.png') }}">
 <!-- Main style sheet -->
 @if (in_array(app()->getLocale(),['fa','ar']))
 <link rel="stylesheet" type="text/css" href="{{ secure_asset('assets/css/style-rtl.css') }}">
