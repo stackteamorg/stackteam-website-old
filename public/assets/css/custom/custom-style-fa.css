@@ -27,7 +27,7 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
 .ceo-quotation {font-size:24px !important;text-align: justify;margin-top: 40px; }
 .hero-banner-two .hero-text-wrapper .sub-text,.block-style-six .text-details .quote-wrapper blockquote,.client-feedback-slider-one .clientSliderOne p,.fancy-hero-five .sub-heading ,.text-meta,.sub-text,.terms_and_policy .tab-content p,.service-details-one .details-wrapper .sub-heading {text-align:justify}
 .hero-banner-two .hero-text-wrapper h1 small {font-size: 38px;}
-.whatsapp-icon{ line-height: 35px; position: fixed; text-align: center; color: #000; font-size: 18px;width: 220px; height:60px; right: 85px; bottom:15px; z-index: 90; color: #000; background:#edf9ff; padding:8px; border-radius: 20px;}
+.whatsapp-icon{ line-height: 35px; position:fixed; text-align: center; color: #000; font-size: 18px;width: 220px; height:60px; right: 85px; bottom:15px; z-index: 90; color: #000; background:#edf9ff; padding:8px; border-radius: 20px;}
 .whatsapp-icon div::after{ content:'989120186223+'; margin-right:5px; font-size:15px; }
 .dir-ltr{ direction: ltr; }
 #whatsapp-call{ width:30px; height:30px; border-radius: 50%; background: #46c756; font-size:20px; text-align: center; padding:5px;color:#fff;}
