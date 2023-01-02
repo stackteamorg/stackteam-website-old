@@ -23,7 +23,7 @@
 
 <script>
 $(document).ready(function(){
-    $('#send').click(function (e){
+    $('.send').click(function (e){
         e.preventDefault();
         var phonenumber = $("#phonenumber-" + $(this).attr('pos')).val();
         console.log(phonenumber);

@@ -75,13 +75,14 @@
                     <p class="hero-sub-heading"> {{ __('index.content.nameofcompany') }}{{ __('index.hero.title') }} <br> {{ __('index.hero.text') }} </p>
                     <form>
                         <input type="tel" name="phonenumber" class="phonenumber" id="phonenumber-top" placeholder="+98 912 018 6223">
-                        <button pos="top" id="send"> {{ __('index.hero.valuesubmit') }} </button>
+                        <button pos="top" class="send"> {{ __('index.hero.valuesubmit') }} </button>
                     </form>
                     <p class="term-text" style="color:#102a43;"> <img src="{{ asset('assets/images/icon/support.svg') }}" class="float-right mt-1 ml-2"/> {!! __('index.hero.subtext') !!} </p>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     <!-- about -->

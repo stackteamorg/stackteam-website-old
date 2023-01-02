@@ -22,9 +22,12 @@ class Consultation extends Controller
         if ($consultation = \App\Models\Consultation::create([
             'phone_number' => $request->phone_number,
             'lang' => App::getLocale()
-        ])) {
+        ]))
+           
+        {
+            //Mail::to('homeily@gmail.com')->send(new ConsultationMail($consultation));
+            Mail::to('maryam73.zare@gmail.com')->send(new ConsultationMail($consultation));
 
-            Mail::to('homeily@gmail.com')->send(new ConsultationMail($consultation));
             $success = true;
         }
 
@@ -52,6 +55,7 @@ class Consultation extends Controller
                 </button>
             </div>';
         }
+        
         
         /*return response()->json([
             'success' => $success
