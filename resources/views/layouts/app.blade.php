@@ -59,7 +59,7 @@
 
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<!-- jQuery -->
-		<script src="{{ secure_secure_asset('assets/vendor/jquery.min.js') }}"></script>
+		<script src="{{ secure_asset('assets/vendor/jquery.min.js') }}"></script>
 		<!-- Popper js -->
 		<script src="{{ secure_asset('assets/vendor/popper.js/popper.min.js') }}"></script>
 		<!-- Bootstrap JS -->
