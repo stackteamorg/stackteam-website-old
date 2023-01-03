@@ -17,7 +17,7 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
 .textarea-request{border:none;border-bottom:2px solid #000;width:100%;}
 .bg-transparent{background: transparent;}
 .fancy-text-block-three .feature-content.light-bg{background: #8d86b3;}
-.fancy-text-block-three .feature-content.dark-bg{background: #736aa6;}
+.fancy-text-block-three .feature-content.dark-bg{background: #736aa6;}f
 .dark-bg2{background-color: #655c97;}
 .hero-banner-two .hero-text-wrapper form input{padding:0 170px 0 40px;text-align:left;}
 .hero-banner-two .hero-text-wrapper form button{right:10px;left:auto;}
@@ -64,192 +64,43 @@ body .theme-btn-one:hover , .hero-banner-two .hero-text-wrapper form button:hove
 
 
  /* new css */
- .hero-banner-ten .button-group a{
-  background:transparent;
-  color: #fff;
-  border:2px solid #fff;
-}
-
-.hero-banner-ten .button-group a:hover{
-  background:#102a43;
-  color: #fff;
-  border:2px solid #102a43;
-}
-
-.find-button{
-  border: 2px solid #102a43;
-}
-
-.block-style-twentySeven{
-  border: 1px solid #102a43;
-  height:300px;
-}
-
-body .theme-btn-five{
-  background: #102a43;
-}
-
-
-
-
-.app-screen-preview-two , .fancy-hero-three , .useable-tools-section-two.bg-shape .bg-wrapper{
-   /*background: #e4ebf1;*/
-   background: #f3f8ff;
-}
-
-.baner-about{
-  background-image: url(../../images/teams/11.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.fancy-feature-thirtyFive .card-block .view{
-  border: 2px solid #102a43;
-  border-radius: 6px;
-}
-
-.fancy-feature-thirtyFive .card-block .view:hover{
-  background: #102a43;
-  border: 2px solid #102a43;
-}
-
-.fancy-feature-thirtyFive .slider-arrows li:hover{
-  background: #102a43;
-}
-
-.service-a {
-  width: 180px;
-  height: 60px;
-  padding: 10px 25px 0 0;
-  margin: 10px 12px;
-  background: transparent;
-  border-radius: 6px;
-  color: #102a43;
-  text-align: right;
-  transition: all .3s ease-in-out;
-  border: 2px solid #102a43;
-}
-.service-a:hover{
-  color: #fff;
-  background: #102a43;
-}
-
-.fancy-feature-twentySeven , .fancy-hero-five , .fancy-feature-nine,.fancy-feature-thirtyFour , .hero-banner-seven {
-  /*background: #e4ebf1;*/
-   background: #f3f8ff;
-}
-
-.hero-banner-seven{
-  background-image: url(../../images/media/background-hero.jpg);
-  background-size: cover;
-  background-position: center;
-  /*background: #aa954d42;
-  background: #f3f8ff;*/
-}
-
-.hero-team{
-  background-image: url(../../images/media/background-img.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.theme-footer-four::before {
-  background: none;
-}
-
-.theme-footer-four , .scroll-top{
-  background: #102a43;
-}
-
-.theme-footer-four .footer-title{
-  color:#fff;
-}
-
-.theme-footer-four .footer-list ul li a{
-  color:#fff;
-}
-
-.theme-footer-four .footer-list ul li a:hover , .theme-footer-four .bottom-footer-content p{
-  color: #aa954d;
-}
-
-.navbar-nav .nav-item .nav-link{
-  color: #102a43;
-}
-
-.theme-menu-three .user-login-button li .signUp-action{
-  background: #102a43;
-}
-
-.theme-menu-three .user-login-button li .signUp-action:hover{
-  background: transparent;
-  border: 2px solid #102a43;
-  color: var(--heading);
-}
-
-.flag-icon{
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.text-submenu{
-  float:right;
-}
-
-.img-submenu{
-  float:right;
-  max-width:50%;
-  margin:0px 20px;
-  border-radius: 10px;
-}
-
-.icon-service{
-  width:100px;
-}
-
-.pricing-section-three-inner-page::before , .fancy-feature-nine::after {
-  background: none;
-} 
-
-.pricing-table-area-three .pr-table-wrapper .subscribe-btn{
-  border: 2px solid #102a43;
-  color: #102a43;
-}
-
-.pricing-table-area-three .pr-table-wrapper .subscribe-btn:hover{
-  background: #102a43;
-}
-
-.pricing-section-three-inner-page{
-  background: #e4ebf1;
-}
-
-
-.pricing-table-area-three .pr-table-wrapper .pack-name.pc3 span::after {
-  background: #ffe3e3;
-}
-
-.app-preview-slider-two .img-holder img{
-  border-radius: 50%;
-}
-
-.block-style-fifteen:hover{
-  background: #102a43;
-  color: #aa954d;
-}
-
-.block-style-fifteen:hover h3{
-  color: #fff;
-}
-
-.block-style-fifteen{
-  height: 350px;
-}
-
-.theme-menu-three .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav:hover .theme-menu-three .navbar-nav .nav-item .nav-link{
-  color: #aa954d;
-}
-
+.hero-banner-ten .button-group a{background:transparent;color: #fff;border:2px solid #fff;}
+.hero-banner-ten .button-group a:hover{background:#102a43;color: #fff;border:2px solid #102a43;}
+.find-button{border: 2px solid #102a43;}
+.block-style-twentySeven{border: 1px solid #102a43;height:300px;}
+body .theme-btn-five{background: #102a43;}
+.app-screen-preview-two , .fancy-hero-three , .useable-tools-section-two.bg-shape .bg-wrapper{/*background: #e4ebf1;*/background: #f3f8ff;}
+.baner-about{background-image: url(../../images/teams/11.jpg);background-size: cover;background-position: center;}
+.fancy-feature-thirtyFive .card-block .view{border: 2px solid #102a43;border-radius: 6px;}
+.fancy-feature-thirtyFive .card-block .view:hover{background: #102a43;border: 2px solid #102a43;}
+.fancy-feature-thirtyFive .slider-arrows li:hover{background: #102a43;}
+.service-a {width: 180px;height: 60px;padding: 10px 25px 0 0;margin: 10px 12px;background: transparent;border-radius: 6px;color: #102a43;text-align: right;transition: all .3s ease-in-out;border: 2px solid #102a43;}
+.service-a:hover{color: #fff;background: #102a43;}
+.fancy-feature-twentySeven , .fancy-hero-five , .fancy-feature-nine,.fancy-feature-thirtyFour , .hero-banner-seven {/*background: #e4ebf1;*/background: #f3f8ff;}
+.hero-banner-seven{background-image: url(../../images/media/background-hero.jpg);background-size: cover;background-position: center;}
+.hero-team{background-image: url(../../images/media/background-img.jpg);background-size: cover;background-position: center;}
+.theme-footer-four::before {background: none;}
+.theme-footer-four , .scroll-top{background: #102a43;}
+.theme-footer-four .footer-title{color:#fff;}
+.theme-footer-four .footer-list ul li a{color:#fff;}
+.theme-footer-four .footer-list ul li a:hover , .theme-footer-four .bottom-footer-content p{color: #aa954d;}
+.navbar-nav .nav-item .nav-link{color: #102a43;}
+.theme-menu-three .user-login-button li .signUp-action{background: #102a43;}
+.theme-menu-three .user-login-button li .signUp-action:hover{background: transparent;border: 2px solid #102a43;color: var(--heading);}
+.flag-icon{margin-left: 5px;margin-right: 5px;}
+.text-submenu{float:right;}
+.img-submenu{float:right;max-width:50%;margin:0px 20px;border-radius: 10px;}
+.icon-service{width:100px;}
+.pricing-section-three-inner-page::before , .fancy-feature-nine::after {background: none;} 
+.pricing-table-area-three .pr-table-wrapper .subscribe-btn{border: 2px solid #102a43;color: #102a43;}
+.pricing-table-area-three .pr-table-wrapper .subscribe-btn:hover{background: #102a43;}
+.pricing-section-three-inner-page{background: #e4ebf1;}
+.pricing-table-area-three .pr-table-wrapper .pack-name.pc3 span::after {background: #ffe3e3;}
+.app-preview-slider-two .img-holder img{border-radius: 50%;}
+.block-style-fifteen:hover{background: #102a43;color: #aa954d;}
+.block-style-fifteen:hover h3{color: #fff;}
+.block-style-fifteen{height: 350px;}
+.theme-menu-three .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav:hover .theme-menu-three .navbar-nav .nav-item .nav-link{color: #aa954d;}
 .fancy-hero-three::before {background: none;}
 .tech-icon{ width:80px;height:80px; }
 .ctn-preloader .animation-preloader .txt-loading .letters-loading{color:#102a43;}
@@ -275,3 +126,10 @@ body .theme-btn-five{
 body .theme-btn-one{background: #102a43;}
 body .theme-btn-one{background: #fff;border: 2px solid #102a43;color: #000;}
 .icon-teamdetail::before{content: url('../../images/icon/158.svg'); margin-left:5px;}
+.term-icon{color:#102a43;}
+.term-icon img{float:right;margin-top:5px;margin-left:5px;}
+@media (max-width: 575px){
+  .pt-xs-1{
+    padding-top:0px;
+  }
+}

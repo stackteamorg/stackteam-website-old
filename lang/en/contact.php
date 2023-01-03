@@ -17,6 +17,7 @@ return[
         'contact'=>'contact',
         'location'=>'location',
         'whatsapp'=>'Whatsapp',
-        'email'=>'Email Address'
+        'email'=>'Email Address',
+        'address' =>'No. 11, Khwajeh Nasir Alley, beginning of South Palestine Street, Elkhebal St., Tehran'
     ]
 ];

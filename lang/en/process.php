@@ -10,8 +10,8 @@ return[
         'title'=>'Description of the cooperation process with ',
     ],
     'item1'=>[
-        'title'=>'Submit request ',
-        'text'=>'Submit request by business partner'
+        'title'=>'Consultation request ',
+        'text'=>'Sending a consultation request by a business partner'
     ],
     'item2'=>[
         'title'=>'Check information',

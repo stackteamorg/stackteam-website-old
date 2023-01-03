@@ -6,7 +6,8 @@ return[
         'findteam' => 'Make yout team',
         'view' => 'View',
         'team' => 'Our Team',
-        'join' => 'Work with us'
+        'join' => 'Work with us',
+        'more' => ' More'
     ],
     'hero'=>[
         'title'=>', Realization of any idea',

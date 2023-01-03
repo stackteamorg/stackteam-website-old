@@ -168,15 +168,15 @@
                     <div class="row mt-50">
                         <div class="col-md-6">
                             <h4 class="font-gordita pt-40"> {{ __('service.detail.target') }} </h4>
-                            <ul class="list-item-one">
+                            <ul class="list-item-one pt-2">
                                 @foreach ($service->goals as $goal)
-                                <li>{{ $goal->text }}</li>
+                                <li class="term-icon"><img src="{{ asset('assets/images/icon/177.svg') }}" />{{ $goal->text }}</li>
                                 @endforeach
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <h4 class="font-gordita pt-40"> {{ __('service.detail.advantage') }} </h4>
-                            <p>{!! $service->advantage_text !!}</p>
+                            <p class="pt-2">{!! $service->advantage_text !!}</p>
                         </div>
                     </div>
 				</div>

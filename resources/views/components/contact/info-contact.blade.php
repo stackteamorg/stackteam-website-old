@@ -63,14 +63,15 @@
                     <div class="address-info">
                         <div class="icon d-flex align-items-end"><img src="{{ asset('assets/images/icon/location.png') }}" alt=""></div>
                         <div class="title"> {{ __('contact.info.location') }} </div>
-                        <p class="font-rubik"> {{ $address->data }} </p>
+                        {{--<p class="font-rubik"> {{ $address->data }} </p>--}}
+                        <p class="font-rubik"> {{ __('contact.info.address') }} </p>
                     </div> <!-- /.address-info -->
                 </div>
                 <div class="col-lg-4 col-sm-6 d-lg-flex">
                     <div class="address-info">
                         <div class="icon d-flex align-items-end"><img src="{{ asset('assets/images/icon/phone.png') }}" alt=""></div>
                         <div class="title"> {{ __('contact.info.contact') }} </div>
-                        <p class="font-rubik"> {!!  $phone->data !!} </p>
+                        <p class="font-rubik dir-ltr"> {!!  $phone->data !!} </p>
                     </div> <!-- /.address-info -->
                 </div>
                 <div class="col-lg-4 col-sm-6 d-lg-flex">
