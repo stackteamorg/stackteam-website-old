@@ -126,7 +126,7 @@
 
 
 		<!-- Theme js -->
-		<script src="{{ asset('assets/js/theme.js') }}"></script>
+		<script src="{{ secure_asset('assets/js/theme.js') }}"></script>
 		</div> <!-- /.main-page-wrapper -->
 	</body>
 </html>
