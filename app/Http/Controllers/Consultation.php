@@ -17,19 +17,19 @@ class Consultation extends Controller
      */
     public function __invoke(ConsultationRequest $request)
     {
-        $success = false;
+        $success = true;
 
         if ($consultation = \App\Models\Consultation::create([
             'phone_number' => $request->phone_number,
             'lang' => App::getLocale()
         ]))
            
-        {
+        /*{
             //Mail::to('homeily@gmail.com')->send(new ConsultationMail($consultation));
             Mail::to('maryam73.zare@gmail.com')->send(new ConsultationMail($consultation));
 
             $success = true;
-        }
+        }*/
 
         if(App::getLocale()=='fa'){
         $data='<div class="alert alarm-message alert-dismissible fade show" role="alert">
