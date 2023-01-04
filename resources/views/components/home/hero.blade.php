@@ -66,11 +66,11 @@
 
     <div class="hero-banner-seven lg-container pt-150 pb-150">
         <div class="container">
-            <div class="illustration-container pt-100 pt-xs-1">
+            <!--div class="illustration-container pt-100 pt-xs-1">
                 <img src="{{ asset('assets/images/hero/stackteam-hero.png') }}" alt="">
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mr-auto">
+            </div-->
+            <div class="row">   
+                <div class="col-lg-6">
                     <h1 class="hero-heading"> {{ __('index.content.nameofcompany') }} </h1>
                     <p class="hero-sub-heading"> {{ __('index.content.nameofcompany') }}{{ __('index.hero.title') }} <br> {{ __('index.hero.text') }} </p>
                     <form>
@@ -78,6 +78,9 @@
                         <button pos="top" class="send"> {{ __('index.hero.valuesubmit') }} </button>
                     </form>
                     <p class="term-text term-icon"> <img src="{{ asset('assets/images/icon/support.svg') }}"/> {!! __('index.hero.subtext') !!} </p>
+                </div>
+                <div class="col-lg-6 pr-4">
+                    <img src="{{ asset('assets/images/hero/stackteam-hero.png') }}" alt="">
                 </div>
             </div>
         </div>
