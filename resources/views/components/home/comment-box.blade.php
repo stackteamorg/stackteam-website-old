@@ -1,4 +1,4 @@
-<div class="client-feedback-slider-one md-pb-80 pb-100"><!-- remove pb-170-->
+<div class="client-feedback-slider-one md-pb-80 pb-100">
     <div class="shapes-holder">
         <img src="{{ asset('assets/images/shape/39.svg') }}" alt="">
         <img src="{{ asset('assets/images/media/img_21.png') }}" alt="" class="cp-img-one">
@@ -29,4 +29,4 @@
             </div>
         </div>
     </div> <!-- /.container -->
-</div> <!-- /.client-feedback-slider-one -->
+</div>

@@ -1,11 +1,6 @@
 <div class="fancy-feature-thirtyTwo pt-110 pb-160 md-pt-90 md-pb-100">
 	<div class="container">
 		<div class="row align-items-center justify-content-center">
-		{{--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200">
-				<div class="title-style-eleven">
-					<h2> {{ __('service.hero.title') }} </h2>
-				</div>
-			</div>--}}
 
 			@foreach ($services as $service)
 				@php 

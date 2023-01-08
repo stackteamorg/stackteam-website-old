@@ -6,7 +6,6 @@
                         <div class="title-style-fourteen pb-100">
                             <h2> {{ __('index.skill.title') }} </h2>
                         </div>
-                        {{--<div class="tag-line"> {{ __('index.skill.subtitle') }} </div>--}}
                         <ul class="slider-arrows d-flex justify-content-center justify-content-lg-end pt-25 md-pt-10 md-pb-30">
                             <li class="prev_case2 ripple-btn slick-arrow" style=""><i class="flaticon-right-arrow"></i></li>
                             <li class="next_case2 ripple-btn slick-arrow" style=""><i class="flaticon-right-arrow"></i></li>

@@ -1,12 +1,7 @@
 <x-app-layout>
     <x-hero/>
     <x-service-box/>
-    {{--<x-list-item/>--}}
-    {{--<x-technology/>--}}
-    {{--<x-partner/>--}}
-    
    <x-slide-team/>
-
     <div class="app-screen-preview-two pt-60 pb-60 mb-60">
         <div class="container">
             <div class="title-style-eleven text-center mb-70 md-mb-20">
@@ -101,11 +96,6 @@
                         <div><a class="service-a" href="mailto:info@stackteam.org"> {{  __('index.content.join') }} ... </a></div>
                     </div>
                 </div>
-                <!--div class="row">
-                    <div class="col-md-12 mt-60 text-center">
-                        <a class="service-a" href="mailto:info@stackteam.org"> {{  __('index.content.join') }} ... </a>
-                    </div>
-                </div-->
             </div>
         </div> <!-- /.bg-wrapper -->
     </div>

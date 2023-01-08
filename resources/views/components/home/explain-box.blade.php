@@ -9,7 +9,6 @@
                     <div class="quote-wrapper">
                         <div class="quote-icon d-flex align-items-center justify-content-center"><img src="{{ asset('assets/images/icon/28.svg') }}" alt=""></div>
                         <blockquote>“{{ $quotation }}”</blockquote>
-                        {{--<div class="name"><strong>{{ @$quotationName }}</strong> {{ @$quotationRole }} <br> {{ __('index.content.nameofcompany') }} </div>--}}
                     </div> <!-- /.quote-wrapper -->
                 </div> <!-- /.text-details -->
             </div>
@@ -38,7 +37,6 @@
                     <div class="quote-wrapper">
                         <div class="quote-icon d-flex align-items-center justify-content-center"><img src="{{ asset('assets/images/icon/28.svg') }}" alt=""></div>
                         <blockquote>“{{ $quotation }}”</blockquote>
-                        {{--<div class="name"><strong>{{ @$quotationName }}</strong> {{ @$quotationRole }} <br>  {{ __('index.content.nameofcompany') }} </div>--}}
                     </div> <!-- /.quote-wrapper -->
                 </div> <!-- /.text-details -->
             </div>

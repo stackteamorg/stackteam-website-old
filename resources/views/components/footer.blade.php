@@ -4,14 +4,6 @@
             <div class="row justify-content-start">
                 <div class="col-xl-4 col-lg-3 col-12 footer-about-widget">
                     <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/images/logo/logo.png') }}" alt="stackteam"></a></div>
-                    <!--ul class="d-flex justify-content-left">
-                        <li><a href="https://www.instagram.com/stackteam.ir/" class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/stack-team-a3a700249/" class="social-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    </ul-->
                 </div> <!-- /.about-widget -->
                 <div class="col-lg-3 col-md-4 footer-list">
                     <h5 class="footer-title font-slab"> {{ __('footer.content.menu') }} </h5>

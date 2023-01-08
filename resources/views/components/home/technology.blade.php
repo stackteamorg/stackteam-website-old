@@ -8,7 +8,6 @@
             <div class="title-style-two text-center">
                 <div class="row">
                     <div class="col-lg-10 col-md-11 m-auto">
-                        {{--<p>{{ __('index.technology.subject') }}</p>--}}
                         <h2>{{ __('index.technology.titlep1') }}
                             <span>{{ __('index.content.nameofcompany') }}<img src="{{ asset('assets/images/shape/line-shape-2.svg') }}" alt=""></span>
                             {{ __('index.technology.titlep2') }}
