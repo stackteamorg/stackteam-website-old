@@ -1,3 +1,4 @@
+<x-app-layout>
 <div class="fancy-hero-three">
             <div class="shapes shape-one"></div>
             <div class="shapes shape-two"></div>
