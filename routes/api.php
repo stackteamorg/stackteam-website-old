@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Consultation;
+use App\Http\Controllers\CommingSoonAPI;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('/consultation/store', Consultation::class);
+Route::any('/comming-soon', CommingSoonAPI::class);
