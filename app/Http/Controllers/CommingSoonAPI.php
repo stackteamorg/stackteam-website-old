@@ -15,7 +15,7 @@ class CommingSoonAPI extends Controller
         if(Commingsoon::create([
             'mobile' => $request->mobile,
             'email' => $request->email,
-            'mobile' => $request->platform,
+            'platform' => $request->platform,
         ])) {
 
             return response()->json([
