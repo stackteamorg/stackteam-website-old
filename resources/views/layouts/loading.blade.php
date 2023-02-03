@@ -1,4 +1,4 @@
-<section>
+{{-- <section>
     <div id="preloader">
         @if (in_array(app()->getLocale(),['fa','ar']))
         <div id="ctn-preloader" class="ctn-preloader">
@@ -73,4 +73,4 @@
         </div>
         @endif
     </div>
-</section>
+</section> --}}
