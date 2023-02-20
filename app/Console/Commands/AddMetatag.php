@@ -100,6 +100,7 @@ class AddMetatag extends Command
             'about',
             'service',
             'contact',
+            'tem',
             'collaborative-process',
         ],'public');
 
