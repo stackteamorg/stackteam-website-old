@@ -41,14 +41,18 @@
 				</div>
 			</div>
 			<div class="row mt-50">
+				@if( $team->responsibility != "" )
 				<div class="col-md-6">
 					<h4 class="font-gordita pt-40"> مسئولیت هایی که تیم بک اند بر عهده دارند:</h4>
-					<p> {!! $team->responsibility !!} </p>
+					<p class="pt-20"> {!! $team->responsibility !!} </p>
 				</div>
+				@endif
+				@if( $team->requirements != "" )
 				<div class="col-md-6">
 					<h4 class="font-gordita pt-40"> حداقل الزامات که برنامه نویس های استک تیم دارند:  </h4>
-					<p> {!! $team->requirements !!} </p>
+					<p class="pt-20"> {!! $team->requirements !!} </p>
 				</div>
+				@endif
 			</div>
 		</div>
 	</div> <!-- /.fancy-text-block-eleven -->
