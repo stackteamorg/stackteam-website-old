@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-8 m-auto" data-aos="fade-right" data-aos-duration="1200">
-                <img src="{{ asset('assets/images/teams/10.jpg') }}" alt="" class="fancy_img_media">
+                <img src="{{ asset('assets/images/teams/stack-team.jpg') }}" alt="" class="fancy_img_media">
             </div>
         </div>
     </div>
