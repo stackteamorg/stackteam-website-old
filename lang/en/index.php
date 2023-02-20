@@ -65,5 +65,9 @@ return[
             'title' =>  'Onsite meals and snacks',
             'text' => 'Enjoy complimentary lunches and a well-stocked pantry, for when you need to recharge.'
         ],
-    ]
+    ],
+    'team' => [
+        'responsibility' => 'Responsibilities of the backend team:',
+        'requirements' => 'Minimum requirements for team stack developers:',
+    ],
 ];
