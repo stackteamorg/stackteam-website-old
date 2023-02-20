@@ -10,8 +10,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-9 col-lg-10 m-auto">
-						<h1 class="heading"> {{ __('index.content.team') }} </h1>
-						<p class="sub-heading"> {{ $team->title }} </p>
+						<h1 class="heading"> {{ $team->title }} </h1>
+						<p class="sub-heading">  {{ __('index.content.team') }} </p>
 					</div>
 				</div>
 			</div>
@@ -36,20 +36,19 @@
 				<div class="col-lg-5 order-lg-first">
 					<div class="video-box">
 						<img src="{{ asset ('assets/images/skills/' . $team->img . '.jpg') }}" alt="">
-						<a data-fancybox="" href="#" class="fancybox d-flex align-items-center justify-content-center"><img src="{{ asset('assets/images/icon/170.svg') }}" alt=""></a>
 					</div> <!-- /.video-box -->
 				</div>
 			</div>
 			<div class="row mt-50">
 				@if( $team->responsibility != "" )
 				<div class="col-md-6">
-					<h4 class="font-gordita pt-40"> مسئولیت هایی که تیم بک اند بر عهده دارند:</h4>
+					<h4 class="font-gordita pt-40"> {{ __('index.team.responsibility') }} </h4>
 					<p class="pt-20"> {!! $team->responsibility !!} </p>
 				</div>
 				@endif
 				@if( $team->requirements != "" )
 				<div class="col-md-6">
-					<h4 class="font-gordita pt-40"> حداقل الزامات که برنامه نویس های استک تیم دارند:  </h4>
+					<h4 class="font-gordita pt-40"> {{ __('index.team.requirements') }} </h4>
 					<p class="pt-20"> {!! $team->requirements !!} </p>
 				</div>
 				@endif
