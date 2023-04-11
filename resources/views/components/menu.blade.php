@@ -1,4 +1,4 @@
-@if($submenu=="0")
+{{--@if($submenu=="0")
     <li class="nav-item position-static">
         <a class="nav-link" href="{{ $link }}">{{ $text }}</a>
     </li>
@@ -11,4 +11,7 @@
             </ul> 
         </div> <!-- /.dropdown-menu -->
     </li>
-@endif
+@endif--}}
+<li class="nav-item position-static">
+    <a class="nav-link" href="{{ $link }}">{{ $text }}</a>
+</li>

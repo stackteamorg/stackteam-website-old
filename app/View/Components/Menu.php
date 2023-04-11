@@ -3,6 +3,7 @@
 namespace App\View\Components;
 
 use Illuminate\View\Component;
+use Illuminate\Support\Facades\Route;
 
 class Menu extends Component
 {
@@ -13,13 +14,12 @@ class Menu extends Component
      */
     public $link;
     public $text;
-    public $submenu;
+    public $routname;
 
-    public function __construct($link,$text,$submenu)
+    public function __construct($link,$text)
     {
         $this->link=$link;
         $this->text=$text;
-        $this->submenu=$submenu;
     }
 
     /**
@@ -30,5 +30,6 @@ class Menu extends Component
     public function render()
     {
         return view('components.menu');
+
     }
 }

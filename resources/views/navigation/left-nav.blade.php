@@ -6,11 +6,11 @@
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <div class="d-lg-flex justify-content-between align-items-center">
                 <ul class="navbar-nav">
-                    <x-menu :text="__('menu.navigation.home')" :link="route('index',['lang' => app()->getLocale()])" :submenu="0"/>
-                    <x-menu :text="__('menu.navigation.service')" :link="route('service',['lang' => app()->getLocale()])" :submenu="0"/>
-                    <x-menu :text="__('menu.navigation.coworker')" :link="route('process',['lang' => app()->getLocale()])" :submenu="0"/>
-                    <x-menu :text="__('menu.navigation.about')" :link="route('about',['lang' => app()->getLocale()])" :submenu="0"/>
-                    <x-menu :text="__('menu.navigation.contact')" :link="route('contact',['lang' => app()->getLocale()])" :submenu="0"/>
+                    <x-menu :text="__('menu.navigation.home')" :link="route('index',['lang' => app()->getLocale()])"/>
+                    <x-menu :text="__('menu.navigation.service')" :link="route('service',['lang' => app()->getLocale()])"/>
+                    <x-menu :text="__('menu.navigation.coworker')" :link="route('process',['lang' => app()->getLocale()])"/>
+                    <x-menu :text="__('menu.navigation.about')" :link="route('about',['lang' => app()->getLocale()])"/>
+                    <x-menu :text="__('menu.navigation.contact')" :link="route('contact',['lang' => app()->getLocale()])"/>
                 </ul>
                 <ul class="right-widget user-login-button d-flex align-items-center justify-content-center">
                     @if (app()->getLocale() != 'en')   

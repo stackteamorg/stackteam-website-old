@@ -4,25 +4,21 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class ServiceItem extends Component
+class TeamMember extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public $title;
-    public $text;
     public $img;
-    public $link;
-
-    public function __construct($title,$text,$img,$link)
+    public $fullname;
+    public $role;
+    public function __construct( $img, $fullname, $role )
     {
-        //
-        $this->title=$title;
-        $this->text=$text;
-        $this->img=$img;
-        $this->link = $link;
+        $this-> img= $img;
+        $this-> fullname= $fullname;
+        $this-> role= $role;
     }
 
     /**
@@ -32,6 +28,6 @@ class ServiceItem extends Component
      */
     public function render()
     {
-        return view('components.service.service-item');
+        return view('components.team.team-member');
     }
 }

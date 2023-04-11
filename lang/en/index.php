@@ -14,7 +14,7 @@ return[
         'text'=>'Stackteam is here to turn your startup and pure idea into a reality in the form of a professional application and website.',
         'subtext' => 'Enter your contact number in the box below, so we can call you and talk about your big idea',
         'valuesubmit'=>'send',
-        'placeholderinput'=>'شماره تماس خود را وارد نمایید',
+        'placeholderinput'=>'Enter your phone number',
         'item1'=>'Consultation is free',
         'item2'=>'The consultation is free, we will contact you and discuss the implementation of your idea',
     ],

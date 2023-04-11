@@ -22,7 +22,7 @@ return[
         'valuebutton'=>'save',
         'placeholder' => [
             'fullname' => 'Enter Your full name',
-            'phonenumber' => 'Enter your contact number',
+            'phonenumber' => '+98 9-- --- -- --',
             'detail' => 'Enter the description of your idea or application and website',
         ],
     ]
