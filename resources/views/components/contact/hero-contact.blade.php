@@ -13,7 +13,7 @@
     <div class="bubble-four"></div>
     <div class="bubble-five"></div>
     <div class="bubble-six"></div>
-</div> <!-- /.fancy-hero-one -->
+</div> <!-- /.fancy-hero-one -->--}}
 <div class="fancy-hero-four bg-doc space-fix">
 				<div class="bg-wrapper">
 					<div class="container">
@@ -25,15 +25,4 @@
 						</div>
 					</div>
 				</div> <!-- /.bg-wrapper -->
-			</div>--}}
-
-<section class="container">
-	<div class="row">
-		<div class="col-md-12 py-66">
-			<div class="title text-center">
-				<h3 class="mb-4"> {{ __('contact.hero.toptitle') }} </h3>
-				<p> {{ __('contact.hero.title') }} </p>
 			</div>
-		</div>
-	</div>
-</section>

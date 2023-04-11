@@ -5,6 +5,7 @@
 	</head>
 
 	<body>
+		<div class="main-page-wrapper p0">
 			<!-- ===================================================
 				Loading Transition
 			==================================================== -->
@@ -19,69 +20,67 @@
 					@include('navigation.left-nav')					
 				</div>
 			</div>--}}
-			{{--<div class="theme-main-menu sticky-menu theme-menu-three">
+			<div class="theme-main-menu sticky-menu theme-menu-three">
 				<div class="d-flex align-items-center justify-content-center">
 					<!--logo-->
 					@include('navigation.right-nav')
 					<!--menu-->
 					@include('navigation.left-nav')					
 				</div>
-			</div>--}}
-			<!--menu-->
-			@include('navigation.left-nav')		
+			</div>
 			<!-- End Menu Section -->
 			{{$slot}}
 			
-			{{--<x-conversation/>--}}
+			<x-conversation/>
 
 			<!-- Start Footer Section -->
 			<x-footer />
 			<!-- End Footer Section -->
 			
 			<!-- Scroll Top Button -->
-			{{--<button class="scroll-top">
+			<button class="scroll-top">
 				<i class="fa fa-angle-up" aria-hidden="true"></i>
 			</button>
-			--}}
+
 			<!-- Alarm Box Start -->
-				<div class="message"></div> </div>
+				<div class="message"></div>
 			<!-- End -->
-			
+
 			<!-- Whatsapp Icon Start -->
-			<a href="https://api.whatsapp.com/send?phone=989102716223&text=سلام. من درخواست همکاری و مشاوره دارم" target="_blank">
-				<div class="whatsapp-icon">
-					<img src="{{ asset('assets/images/icon/whatsapp.svg') }}" alt="">
+			<a href="https://api.whatsapp.com/send?phone=989102716223&text=سلام. من درخواست همکاری و مشاوره دارم" target="_blank" class="whatsapp-icon">
+				<div>
+					<i class="fa fa-whatsapp" id="whatsapp-call" aria-hidden="true"></i>
 				</div>
 			</a>
 			<!-- End -->
 
 
 		<!-- Optional JavaScript  -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-		<script src="{{ asset('assets/js/aos.js') }}"></script>
-		<script>
-			AOS.init({
-				easing: 'ease-in-out-sine'
-			});
-		</script>
-		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script>
-		$(document).ready(function(){
-		$('.send').click(function (e){
-			e.preventDefault();
-			var phonenumber = $("#phonenumber-top").val();
-			console.log(phonenumber);
-			$.ajax({
-			url:"/api/consultation/store",
-			data: { 'phone_number' : phonenumber },
-			method: "POST",
-			success: function(data){
-				$('.message').html(data.result);
-			}
-			});
-		});
-		});
-		</script>
+
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<!-- jQuery -->
+		<script src="{{ asset('assets/vendor/jquery.min.js') }}"></script>
+		<!-- Popper js -->
+		<script src="{{ asset('assets/vendor/popper.js/popper.min.js') }}"></script>
+		<!-- Bootstrap JS -->
+		<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+	    <!-- menu  -->
+		<script src="{{ asset('assets/vendor/mega-menu/assets/js/custom.js') }}"></script>
+		<!-- AOS js -->
+		<script src="{{ asset('assets/vendor/aos-next/dist/aos.js') }}"></script>
+		<!-- js count to -->
+		<script src="{{ asset('assets/vendor/jquery.appear.js') }}"></script>
+		<script src="{{ asset('assets/vendor/jquery.countTo.js') }}"></script>
+		<!-- Slick Slider -->
+		<script src="{{ asset('assets/vendor/slick/slick.min.js') }}"></script>
+
+		<!-- MixIt Up -->
+		<script src="{{ asset('assets/vendor/mixitup-3/mixitup.min.js') }}"></script>
+
+		<script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+		<!-- Theme js -->
+		<script src="{{ asset('assets/js/theme.js') }}"></script>
+		</div> <!-- /.main-page-wrapper -->
 	</body>
 </html>

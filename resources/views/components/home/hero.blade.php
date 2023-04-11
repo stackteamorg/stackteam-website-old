@@ -1,35 +1,41 @@
-<!-- Hero Part -->
-<section class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 hero-home">
-            <h1> {{ __('index.content.nameofcompany') }}{{ __('index.hero.title') }} </h1>
-            <p> {{ __('index.hero.text') }} </p>
-            <form class="hero-form">
-                <div>
-                    <div class="relative">
-                        <input type="text" id="phonenumber-top" placeholder=" {{ __('index.hero.placeholderinput') }}">
-                        <button class="send"> {{ __('index.hero.valuesubmit') }} </button>
-                    </div>
-                </div>
-            </form>
+<div class="hero-banner-seven lg-container pt-150 pb-150">
+    <div class="container">
+        <div class="row">   
+            <div class="col-lg-6">
+                <h1 class="hero-heading"> {{ __('index.content.nameofcompany') }} </h1>
+                <p class="hero-sub-heading"> {{ __('index.content.nameofcompany') }}{{ __('index.hero.title') }} <br> {{ __('index.hero.text') }} </p>
+                <form>
+                    <input type="tel" name="phonenumber" class="phonenumber" id="phonenumber-top" placeholder="+98 912 018 6223">
+                    <button pos="top" class="send"> {{ __('index.hero.valuesubmit') }} </button>
+                </form>
+                <p class="term-text term-icon"> <img src="{{ asset('assets/images/icon/support.svg') }}"/> {!! __('index.hero.subtext') !!} </p>
+            </div>
+            <div class="col-lg-6 pr-4">
+                <img src="{{ asset('assets/images/hero/stackteam-hero.png') }}" alt="">
+            </div>
         </div>
     </div>
-</section>
-<!-- End Hero Part -->
+</div>
 
-<!-- About Part -->
-<section class="container-fluid">
-   <div class="row about-section">
-       <div class="col-md-6">
-           <img src="{{ asset('assets/images/shape/line01.svg') }}" class="img-fluid" alt="">
-           <div class="p-4">
-               <h2 style="font-size:64px;"> {{ __('about.hero.title') }} {{ __('index.content.nameofcompany') }} </h2>
-               <p>  {!! __('about.hero.text') !!}</p>
-           </div>
-       </div>
-       <div class="col-md-6 text-left">
-           <img src="{{ asset('assets/images/media/stackteam.png') }}" class="img-fluid img-aboutsection" alt="">
-       </div>
-   </div>
-</section>
-<!--  End About Part -->
+<!-- about -->
+<div class="fancy-text-block-two pt-150 pb-170 md-pt-100 md-pb-120">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="100">
+                <div class="title-style-one md-mb-40">
+                    <h2 class="heading">
+                        {{ __('about.hero.title') }}
+                        <span>{{ __('index.content.nameofcompany') }}<img src="{{ asset('assets/images/shape/line-shape-11-svg.svg') }}" alt=""></span>
+                    </h2>
+                    <p class="sub-heading">{!! __('about.hero.text') !!}</p>
+                    <div class="mt-2 text-center">
+                        <a class="service-a" href="{{ route('about',['lang' => app()->getLocale()]) }}"> {{ __('menu.navigation.about') }} ...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 m-auto" data-aos="fade-right" data-aos-duration="1200">
+                <img src="{{ asset('assets/images/teams/stack-team.jpg') }}" alt="" class="fancy_img_media">
+            </div>
+        </div>
+    </div>
+</div>

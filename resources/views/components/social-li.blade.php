@@ -1,6 +1,5 @@
-<li class="social-{{ $name }} social">
-    <a href="{{ $link }}" class="social-href">
-        {{--<i class="fa fa-{{ $type }}" aria-hidden="true"></i>--}}
-        <img src="{{asset($type)}}" class="social-icon" alt="">
+<li class="social-{{ $name }}">
+    <a href="{{ $link }}" class="social-icon">
+        <i class="fa fa-{{ $type }}" aria-hidden="true"></i>
     </a>
 </li>

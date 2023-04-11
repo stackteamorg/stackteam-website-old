@@ -1,2 +1,1 @@
-{{--<img src="{{ asset('assets/images/logo/'.app()->getLocale().'/logo.png') }}" class="width-180" alt="stackteam">--}}
-<img src="{{ asset('assets/images/logo/'.app()->getLocale().'/logo.png') }}" alt="">
+<img src="{{ asset('assets/images/logo/'.app()->getLocale().'/logo.png') }}" class="width-180" alt="stackteam">

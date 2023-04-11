@@ -22,22 +22,16 @@
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('assets/images/fav-icon/icon.png') }}">
 <!-- Main style sheet -->
-{{--@if (in_array(app()->getLocale(),['fa','ar']))
+@if (in_array(app()->getLocale(),['fa','ar']))
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style-rtl.css') }}">
 @else
 <link rel="stylesheet" type="text/css" href="{{ asset('assets-ltr/css/style.css') }}">
-@endif--}}
+@endif
 <!-- responsive style sheet -->
-{{--<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
 <!--  byekan font -->
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/somar/font.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/yekan/font.css') }}">
---}}
-<link href="{{ asset('assets/css/aos.css') }}" rel="stylesheet">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 <!-- fix style -->
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/custom/custom-style-' . app()->getLocale() . '.css') }}">
 

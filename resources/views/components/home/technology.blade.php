@@ -1,97 +1,3 @@
-<div class="container pt-4 radius-16 bg-blue mb-40 mt-40">
-    <div class="row my-4">
-        <div class="col-md-12 p-4 text-center">
-            <h3> {{ __('index.technology.titlep1') }} {{ __('index.content.nameofcompany') }} {{ __('index.technology.titlep2') }} </h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <ul>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/js.png') }}" class="img-fluid img-technology bg-white" alt="JS">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/vue.png') }}" class="img-fluid img-technology bg-white" alt="Vuie">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/php.png') }}" alt="PHP" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/react.png') }}" alt="React" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/laravel.png') }}" alt="Laravel" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/pyton.png') }}" alt="Python"class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/gitlab.png') }}" alt="Gitlab" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/my-sql.png') }}" alt="My SQL" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/java.png') }}" alt="Java" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/angular.png') }}" alt="Angular" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/github.png') }}" alt="Github" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/html.png') }}" alt="HTML" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/node-js.png') }}" alt="Node JS" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/go.png') }}" alt="Go Lang" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/rust.png') }}" alt="Rust"  class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/solidity.png') }}" alt="Solidity" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/docker.png') }}" alt="Docker" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/flutter.png') }}" alt="Flutter" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-                <li class="item-technology">
-                    <div class="technology">
-                        <img src="{{ asset('assets/images/technology/Kubernetes.png') }}" alt="Kubernetes" class="img-fluid img-technology bg-white">      
-                    </div>
-                    <div class="technology mt-4">
-                        <img src="{{ asset('assets/images/technology/mongodb.png') }}" alt="mongodb" class="img-fluid img-technology bg-white">
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-{{--
 <div class="useable-tools-section-two bg-shape mb-200 md-mb-90">
     <div class="bg-wrapper">
         <div class="shapes shape-one"></div>
@@ -180,10 +86,10 @@
                     </li>
                     <li>
                         <div class="icon-box d-flex align-items-center justify-content-center tech-icon">
-                            <img src="{{ asset('assets/images/technology/Kubernetes.png') }}" alt="Kubernetes">
+                            <img src="{{ asset('assets/images/technology/Kubernetes.png') }}" alt="">
                         </div>
                         <div class="icon-box d-flex align-items-center justify-content-center tech-icon">
-                            <img src="{{ asset('assets/images/technology/mongodb.png') }}" alt="mongodb">
+                            <img src="{{ asset('assets/images/technology/mongodb.png') }}" alt="">
                         </div>
                     </li>
                     <li>
@@ -215,4 +121,3 @@
         </div> <!-- /.container -->
     </div> <!-- /.bg-wrapper -->
 </div> <!-- /.useable-tools-section-two -->
---}}

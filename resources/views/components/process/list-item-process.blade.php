@@ -1,4 +1,4 @@
-{{--<div class="fancy-text-block-eight pt-50 pb-200 md-pt-100 md-pb-150">
+<div class="fancy-text-block-eight pt-50 pb-200 md-pt-100 md-pb-150">
     <div class="container">
         <div class="title-style-two text-center mb-150 md-mb-40">
             <div class="row">
@@ -46,48 +46,4 @@
             image="assets/images/assets/feature-img-18.png"
             show="true"/>       
     </div>
-</div> <!-- /.fancy-text-block-eight -->--}}
-<section class="container py-66">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="title text-center">
-                <small> {{ __('process.explain.smalltitle') }} </small>
-                <h3> {{ __('process.explain.title') }} {{ __('index.content.nameofcompany') }} </h3>
-            </div>
-        </div>
-    </div>
-        <x-explain-box
-            name="process-brief"
-            image="assets/images/assets/feature-img-12.png"
-            show="true"/>
-
-        <x-explain-box
-            name="process-check"
-            image="assets/images/assets/feature-img-13.png"
-            show="false"/>
-
-        <x-explain-box
-            name="process-session"
-            image="assets/images/assets/feature-img-14.png"
-            show="true"/>
-
-        <x-explain-box
-            name="process-tech"
-            image="assets/images/assets/feature-img-15.png"
-            show="false"/>
-
-        <x-explain-box
-            name="process-deal"
-            image="assets/images/assets/feature-img-16.png"
-            show="true"/>
-
-        <x-explain-box
-            name="process-creation"
-            image="assets/images/assets/feature-img-17.png"
-            show="false"/>
- 
-        <x-explain-box
-            name="process-dev"
-            image="assets/images/assets/feature-img-18.png"
-            show="true"/>     
-</section>
+</div> <!-- /.fancy-text-block-eight -->

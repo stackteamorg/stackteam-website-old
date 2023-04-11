@@ -29,9 +29,7 @@ class Menu extends Component
      */
     public function render()
     {
-        $routeName = url()->full();;
-        return view('components.menu',[
-            'routeName' => $routeName
-        ]);
+        return view('components.menu');
+
     }
 }
