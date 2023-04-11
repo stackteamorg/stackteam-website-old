@@ -1,4 +1,4 @@
-<div class="fancy-feature-thirtyTwo pt-110 pb-160 md-pt-90 md-pb-100">
+{{--<div class="fancy-feature-thirtyTwo pt-110 pb-160 md-pt-90 md-pb-100">
 	<div class="container">
 		<div class="row align-items-center justify-content-center">
 
@@ -23,4 +23,19 @@
 			</div>
 		</div>
 	</div>
-</div> <!-- /.fancy-feature-thirtyTwo -->
+</div> <!-- /.fancy-feature-thirtyTwo -->--}}
+	<section class="container-fluid bg-darkblue">
+        <div class="row px-4 py-66">
+			@foreach ($services as $service)
+				@php 
+					//print_r($service->toArray());die();
+					$slug = str_replace([' ','(',')','،',','],['-','','','',''],$service->title);
+					$url = route('service.detail',['lang' => app()->getLocale(),'id' => $service->id,'title' => $slug]);
+				@endphp
+				<x-service-item :title="$service->subtitle"
+					:text="$service->title"
+					:img="'assets/images/service/icon/' . $service->name . '.png'"
+					:link="$url"/>
+			@endforeach
+        </div>
+    </section>

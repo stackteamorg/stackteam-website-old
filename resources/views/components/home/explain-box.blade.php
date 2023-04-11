@@ -1,4 +1,4 @@
-@if($show=='true')        
+{{--@if($show=='true')        
     <div class="block-style-six pb-150 md-pb-70">
         <div class="row">
             <div class="col-lg-5 order-lg-last" data-aos="fade-right" data-aos-duration="1200">
@@ -54,4 +54,34 @@
             </div>
         </div>
     </div> <!-- /.block-style-six -->
+    @endif
+    --}}
+
+    @if($show=='true') 
+    <div class="row pt-66">
+        <div class="col-md-6 py-4">
+            <img src="{{ asset($image) }}" class="img-fluid" data-aos="fade-up-left" data-aos-duration="2000" alt="">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h3 class="mb-4"> {{ $title }} </h3>
+                <p> {!! $explain !!} </p>
+                <div class="comment p-3"> “{{ $quotation }}” </div>
+            </div>
+        </div>
+    </div>
+    @else
+    <div class="row pt-66">
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h3 class="mb-4"> {{ $title }} </h3>
+                <p> {!! $explain !!} </p>
+                <div class="comment p-3"> “{{ $quotation }}” </div>
+            </div>
+           
+        </div>
+        <div class="col-md-6 py-4">
+            <img src="{{ asset($image) }}" class="img-fluid" data-aos="fade-up-right" data-aos-duration="2000" alt="">
+        </div>
+    </div>
     @endif

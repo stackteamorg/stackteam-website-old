@@ -1,77 +1,75 @@
-<div class="team-section-one pt-50 md-pt-50">
-        <div class="container">
-            <div class="title-style-one text-center">
-                <h2> {{ __('index.content.team') }} </h2>
-            </div> <!-- /.title-style-one -->
-
-            <div class="controls mt-80 mb-100 md-mt-60 md-mb-60">
-                <button type="button" class="control" data-filter="all">All</button>
-                <button type="button" class="control" data-filter=".management"> Management</button>
-                <button type="button" class="control" data-filter=".developer">Developer</button>
-                <button type="button" class="control" data-filter=".investment">Investment</button>
-                <!--button type="button" class="control" data-filter=".account">Account</button-->
-            </div>
-
-            <div class="mixitUp-container">
-            <div class="mix management">
-                    <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/3.jpg') }}" alt="">
-                        <h4> {{ __('about.members.homeyli') }} </h4>
-                        <strong>Co-Founder</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix management">
-                    <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/2.jpg') }}" alt="">
-                        <h4> {{ __('about.members.zoveydat') }} </h4>
-                        <strong>CEO</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix management">
-                    <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/1.jpg') }}" alt="">
-                        <h4> {{ __('about.members.bazadaran') }} </h4>
-                        <strong>CTO</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix management">
-                    <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/5.jpg') }}" alt="">
-                        <h4> {{ __('about.members.zare') }} </h4>
-                        <strong>Product Owner</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix investment">
-                    <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/4.jpg') }}" alt="">
-                        <h4> {{ __('about.members.taheri') }} </h4>
-                        <strong> Business Intellignece </strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix developer">
-                    <div class="team-member">
-                        <img src="{{ asset('assets/images/teams/7.jpg') }}" alt="">
-                        <h4> {{ __('about.members.ilya') }} </h4>
-                        <strong>‌Back-end Developer</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix developer ">
-                    <div class="team-member" onclick="location.href='team-single.html';">
-                        <img src="{{ asset('assets/images/teams/8.jpg') }}" alt="">
-                        <h4> {{ __('about.members.shikh') }} </h4>
-                        <strong>‌Back-end Developer</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="mix developer ">
-                    <div class="team-member" onclick="location.href='team-single.html';">
-                        <img src="{{ asset('assets/images/teams/6.jpg') }}" alt="">
-                        <h4> {{ __('about.members.ghaouri') }}  </h4>
-                        <strong>‌Back-end Developer</strong>
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.mix -->
-                <div class="gap"></div>
-                <div class="gap"></div>
-                <div class="gap"></div>
-            </div> <!-- /.mixitUp-container -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-12 py-4 text-center">
+            <h3> {{ __('index.content.team') }} </h3>
         </div>
-    </div> <!-- /.team-section-one -->
+        <div class="col-md-12 d-flex justify-content-center">
+        <div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <!--li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button" role="tab" aria-controls="pills-All" aria-selected="true">All</button>
+            </li-->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-Management-tab" data-bs-toggle="pill" data-bs-target="#pills-Management" type="button" role="tab" aria-controls="pills-Management" aria-selected="true">Management</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Developer-tab" data-bs-toggle="pill" data-bs-target="#pills-Developer" type="button" role="tab" aria-controls="pills-Developer" aria-selected="false">Developer</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Investment-tab" data-bs-toggle="pill" data-bs-target="#pills-Investment" type="button" role="tab" aria-controls="pills-Investment" aria-selected="false">Investment</button>
+            </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+            {{--<div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <x-team-member 
+                img="assets/images/teams/3.jpg"
+                fullname="{{__('about.members.homeyli')}}"
+                role="Co-Founder"/>
+                <x-team-member 
+                img="assets/images/teams/2.jpg"
+                fullname="{{__('about.members.zoveydat')}}"
+                role="CEO"/>
+                <x-team-member 
+                img="assets/images/teams/1.jpg"
+                fullname="{{__('about.members.bazadaran')}}"
+                role="CTO"/>
+                <x-team-member 
+                img="assets/images/teams/5.jpg"
+                fullname="{{__('about.members.zare')}}"
+                role="Product Owner"/>
+            </div>--}}
+            <div class="tab-pane fade show active" id="pills-Management" role="tabpanel" aria-labelledby="pills-Management-tab">  
+                <x-team-member 
+                img="assets/images/teams/3.jpg"
+                fullname="{{__('about.members.homeyli')}}"
+                role="Co-Founder"/>
+                <x-team-member 
+                img="assets/images/teams/2.jpg"
+                fullname="{{__('about.members.zoveydat')}}"
+                role="CEO"/>
+                <x-team-member 
+                img="assets/images/teams/1.jpg"
+                fullname="{{__('about.members.bazadaran')}}"
+                role="CTO"/>
+                <x-team-member 
+                img="assets/images/teams/5.jpg"
+                fullname="{{__('about.members.zare')}}"
+                role="Product Owner"/>
+            </div>
+            <div class="tab-pane fade" id="pills-Developer" role="tabpanel" aria-labelledby="pills-Developer-tab">
+                <x-team-member 
+                img="assets/images/teams/8.jpg"
+                fullname="{{__('about.members.shikh')}}"
+                role="‌Back-end Developer"/>
+            </div>
+            <div class="tab-pane fade" id="pills-Investment" role="tabpanel" aria-labelledby="pills-Investment-tab">
+                <x-team-member 
+                img="assets/images/teams/4.jpg"
+                fullname="{{__('about.members.taheri')}}"
+                role="Business Intellignece"/>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>

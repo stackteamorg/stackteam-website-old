@@ -82,4 +82,7 @@ Route::prefix('team')->group(function () {
     Route::get('/{id?}/{title?}', [TeamController::class,'detail'])->name('team.detail');
 });
 
+Route::get('/zare',function(){
+    return view('');
+});
 

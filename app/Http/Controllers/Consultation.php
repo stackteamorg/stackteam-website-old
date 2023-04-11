@@ -32,7 +32,7 @@ class Consultation extends Controller
         }*/
 
         if(App::getLocale()=='fa'){
-        $data='<div class="alert alarm-message alert-dismissible fade show" role="alert">
+        $data='<div class="alert alert-success alert-dismissible fade show" role="alert">
         <span>شماره تماس شما با موفقیت ثبت شد.</span>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -40,7 +40,7 @@ class Consultation extends Controller
         </div>';
         }
         elseif(App::getLocale()=='en'){
-            $data='<div class="alert alarm-message alert-dismissible fade show" role="alert">
+            $data='<div class="alert alert-success alert-dismissible fade show" role="alert">
             <span>Your contact number has been successfully registered.</span>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -48,7 +48,7 @@ class Consultation extends Controller
             </div>';
         }
         else{
-            $data='<div class="alert alarm-message alert-dismissible fade show" role="alert">
+            $data='<div class="alert alert-success alert-dismissible fade show" role="alert">
             <span>لقد تلقينا رقم هاتفك بنجاح، سوف نتصل بكم.</span>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

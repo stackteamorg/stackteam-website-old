@@ -14,16 +14,14 @@ class ServiceItem extends Component
     public $title;
     public $text;
     public $img;
-    public $delay;
     public $link;
 
-    public function __construct($title,$text,$img,$delay,$link)
+    public function __construct($title,$text,$img,$link)
     {
         //
         $this->title=$title;
         $this->text=$text;
         $this->img=$img;
-        $this->delay=$delay;
         $this->link = $link;
     }
 

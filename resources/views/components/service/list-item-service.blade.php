@@ -1,4 +1,4 @@
-<div class="fancy-text-block-eight pt-150 pb-200 md-pt-100 md-pb-150">
+{{--<div class="fancy-text-block-eight pt-150 pb-200 md-pt-100 md-pb-150">
     <div class="container">
         <div class="title-style-two text-center mb-150 md-mb-40">
             <div class="row">
@@ -20,4 +20,24 @@
             show="false"/>
         
     </div>
-</div> <!-- /.fancy-text-block-eight -->
+</div> <!-- /.fancy-text-block-eight -->--}}
+
+<section class="container py-66">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title text-center">
+                    <small> {{ __('service.explain.smalltitle') }} </small>
+                    <h3> {{ __('service.explain.title') }} </h3>
+                </div>
+            </div>
+        </div>
+        <x-explain-box
+            name="how-work-stackteam"
+            image="{{ asset('assets/images/assets/feature-img-09.png') }}"
+            show="true"/>
+
+        <x-explain-box
+            name="stackteam-technical-service"
+            image="{{ asset('assets/images/assets/feature-img-10.png') }}"
+            show="false"/>
+    </section>

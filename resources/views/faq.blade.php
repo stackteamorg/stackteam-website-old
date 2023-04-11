@@ -1,9 +1,8 @@
 <x-app-layout>
-<div class="terms_and_policy padding-hero">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4">
-				<ul class="nav nav-tabs">
+	<div class="container my-4">
+		<div class="row py-4">
+			<div class="col-md-4">
+				<ul class="nav nav-tabs bg-blue py-4 px-2">
 					@foreach($faqs as $navigation)
 					@php 
 						$slug = str_replace(' ','-',$navigation->title);
@@ -16,17 +15,16 @@
 				</ul>
 			</div>
 
-			<div class="col-lg-8">
+			<div class="col-md-8">
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div id="opt1" class="tab-pane fade active show">
-						<h2 class="font-gilroy-bold">{{ $faq->title }}</h2>
-						<div class="update-date">{{ $faq->updated_at }}</div>
+						<h2 class="mb-4">{{ $faq->title }}</h2>
+						<div class="badge badge-secondary my-3">{{ $faq->updated_at }}</div>
 						{!! $faq->text !!}
 					</div>
 				</div> <!-- /.tab-content -->
 			</div>
 		</div>
 	</div>
-</div>
 </x-app-layout>
