@@ -3,6 +3,11 @@ body,a,p,h1,h2,h3,h4,h5,h6,.title-style-one h2,.team-section-one .team-member h4
 .block-style-six .text-details .title,.font-rubik,.font-slab,.font-gordita{font-family: somar !important;}
 a,p,li,.navbar-nav .nav-item .nav-link,.block-style-six .text-details .quote-wrapper blockquote{font-size:22px;}
 body{direction:rtl;}
+@font-face { 
+        font-family: somar;
+        src: url(../../fonts/somar/somar.ttf);
+        src: url(../../fonts/somar/somar-black.otf);}
+body,a,p,h1,h2,h3,h4,h5,h6,small,b,span{ font-family: somar; }
 .hero-form button{left: 5px;}
 .footer-menu li span{ float:right; padding-left:18px;}
 .social-href{padding:5px;}
