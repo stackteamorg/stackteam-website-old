@@ -3,7 +3,7 @@
         <div class="row">   
             <div class="col-lg-6">
                 <h1 class="hero-heading"> {{ __('index.content.nameofcompany') }} </h1>
-                <p class="hero-sub-heading"> {{ __('index.content.nameofcompany') }}{{ __('index.hero.title') }} <br> {!! __('index.hero.text') !!} </p>
+                <p class="hero-sub-heading">{!! __('index.hero.text') !!}</p>
                 <form>
                     <input type="tel" name="phonenumber" class="phonenumber" id="phonenumber-top" placeholder="+98 912 018 6223">
                     <button pos="top" class="send"> {{ __('index.hero.valuesubmit') }} </button>
